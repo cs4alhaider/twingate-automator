@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "twingate-automator"
+version = "0.1.0"
+description = "https://blog.networkchuck.com/posts/building-a-hacker-dropbox-access-any-network/"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+gql = "^3.5.0"
+requests = "^2.32.3"
+requests-toolbelt = "^1.0.0"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
